@@ -1,0 +1,3 @@
+Namespace(C=0.2, adaptive=True, batch_size=32, ci=0, client_num_in_total=500, client_num_per_round=50, client_optimizer='sgd', comm_round=200, data_dir='data/data', dataset='emnist', epochs=1, frac=0.1, frequency_of_the_test=1, gpu=0, identity='dpfedsam-emnist-dir0.6-mdlcnn_emnist-C0.2-rho0.5-cm200-total_clnt500-lr0.1-seed2-epoch1-momentum0.5', lr=0.1, lr_decay=0.998, model='cnn_emnist', momentum=0.5, num_experiments=2, partition_alpha=0.6, partition_method='dir', rho=0.5, seed=2, sigma=0.95, tag='test', wd=0.0005)
+cuda:0
+running at devicecuda:0
