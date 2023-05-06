@@ -77,4 +77,11 @@ If you use this code, please cite the following reference:
   journal={arXiv preprint arXiv:2303.11242},
   year={2023}
 }
+
+@article{shi2023towards,
+  title={Towards the Flatter Landscape and Better Generalization in Federated Learning under Client-level Differential Privacy},
+  author={Shi, Yifan and Wei, Kang and Shen, Li and Liu, Yingqi and Wang, Xueqian and Yuan, Bo and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2305.00873},
+  year={2023}
+}
 ```
