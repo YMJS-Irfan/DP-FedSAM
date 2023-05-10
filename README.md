@@ -68,6 +68,8 @@ After finishing FL training process, the trained model file on CIFAR-10 dataset 
 
 [1] Shi, Y., Liu, Y., Wei, K., Shen, L., Wang, X., & Tao, D. (2023). Make Landscape Flatter in Differentially Private Federated Learning. *arXiv preprint arXiv:2303.11242*.
 
+[2] Shi, Y., Wei, K., Shen, L., Liu, Y., Wang, X., Yuan, B., & Tao, D. (2023). Towards the Flatter Landscape and Better Generalization in Federated Learning under Client-level Differential Privacy. arXiv preprint arXiv:2305.00873.
+
 ### Citation
 If you use this code, please cite the following reference:
 ```
