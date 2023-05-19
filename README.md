@@ -73,11 +73,13 @@ After finishing FL training process, the trained model file on CIFAR-10 dataset 
 ### Citation
 If you use this code, please cite the following reference:
 ```
-@article{shi2023make,
-  title={Make Landscape Flatter in Differentially Private Federated Learning},
-  author={Shi, Yifan and Liu, Yingqi and Wei, Kang and Shen, Li and Wang, Xueqian and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2303.11242},
-  year={2023}
+@InProceedings{Shi_2023_CVPR,
+    author    = {Shi, Yifan and Liu, Yingqi and Wei, Kang and Shen, Li and Wang, Xueqian and Tao, Dacheng},
+    title     = {Make Landscape Flatter in Differentially Private Federated Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {24552-24562}
 }
 
 @article{shi2023towards,
