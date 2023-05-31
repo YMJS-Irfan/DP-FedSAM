@@ -9,7 +9,8 @@ This repository contains the official implementation for these manuscripts:
 > [Towards the Flatter Landscape and Better Generalization in Federated Learning under Client-level Differential Privacy](https://arxiv.org/abs/2305.00873v2) (Extension)
 
 To defend the inference attacks and mitigate the sensitive information leakages in Federated Learning (FL), client-level Differentially Private FL (DPFL) is the de-facto standard for privacy protection by clipping local updates and adding random noise. However, existing DPFL methods tend to make a sharper loss landscape and have poorer weight perturbation robustness, resulting in severe performance degradation. To alleviate these issues, we propose a novel DPFL algorithm named DP-FedSAM, which leverages gradient perturbation to mitigate the negative impact of DP. Specifically, DP-FedSAM integrates Sharpness Aware Minimization (SAM) optimizer to generate local flatness models with better stability and weight perturbation robustness, which results in the small norm of local updates and robustness to DP noise, thereby improving the performance. From the theoretical perspective, we analyze in detail how DP-FedSAM mitigates the performance degradation induced by DP. Meanwhile, we give rigorous privacy guarantees with Rényi DP and present the sensitivity analysis of local updates. At last, we empirically confirm that our algorithm achieves state-of-the-art (SOTA) performance compared with existing SOTA baselines in DPFL. [1]
-![CVPR23_poster](https://github.com/YMJS-Irfan/DP-FedSAM/assets/67813720/a63c9611-5360-4944-8fd2-4dcaf1b35215)
+
+![CVPR23_poster_00](https://github.com/YMJS-Irfan/DP-FedSAM/assets/67813720/4d097152-7892-4e4f-893c-f9b5b618e1ef)
 
 
 
