@@ -34,7 +34,15 @@ The implementation is provided in the folder `/fedml_api/dpfedsam`, while experi
 
 - CIFAR-100
 
-  
+
+## How to calculate the privacy budget in the paper?
+
+We calculate the accumulative privacy budget along with training as follows in **Theorem 2** of our CVPR paper.
+<img width="688" alt="image" src="https://github.com/YMJS-Irfan/DP-FedSAM/assets/67813720/16a99cdc-d275-4faa-982d-216413278f86">
+
+And this value is the accumulative privacy budget after some communication rounds.
+
+
 
 ## Launch Experiments
 
@@ -61,13 +69,6 @@ Explanations of arguments:
 - `C`: the threshold of clipping in DP.
 - `num_experiments`: the number of experiments.
 
-
-### How to calculate the privacy budget in the paper?
-
-We calculate the accumulative privacy budget along with training as follows in **Theorem 2** of our CVPR paper.
-<img width="688" alt="image" src="https://github.com/YMJS-Irfan/DP-FedSAM/assets/67813720/16a99cdc-d275-4faa-982d-216413278f86">
-
-And this value is the accumulative privacy budget after some communication rounds.
 
 
 
