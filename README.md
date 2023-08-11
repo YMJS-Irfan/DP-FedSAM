@@ -62,9 +62,19 @@ Explanations of arguments:
 - `num_experiments`: the number of experiments.
 
 
+### How to calculate the privacy budget in the paper?
+
+We calculate the accumulative privacy budget along with training as follows in **Theorem 2** of our CVPR paper.
+<img width="688" alt="image" src="https://github.com/YMJS-Irfan/DP-FedSAM/assets/67813720/16a99cdc-d275-4faa-982d-216413278f86">
+
+And this value is the accumulative privacy budget after some communication rounds.
+
+
 
 ### Save Model
 After finishing FL training process, the trained model file on CIFAR-10 dataset is saved in the `/save_model` folder in `.pth.tar` file format using the model with the `torch.save()` function. The saved model can be loaded and used to visualize the loss landscape and loss surface contour by using official code [loss-landscape](https://github.com/tomgoldstein/loss-landscape).
+
+
 
 ### Reference
 
